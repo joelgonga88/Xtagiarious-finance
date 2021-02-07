@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>´
+
+        @font-face {
+            font-family: Roboto;
+            src: url("font/Roboto-Light.ttf");
+        }
+        div#form{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            height: 100%;
+            background: linear-gradient(-20deg, #d50000, #ad123d);
+        }
+
+        div#form div#conteudo{
+            width: 400px;
+            height: 600px;
+            border: 1px solid #fff;
+            margin: 5% auto;
+            font-family: Roboto;
+        }
+    </style>
+
+    <!-- formulario de cadastro & Login -->
+    <div id="form">
+        <div id="conteudo">
+        <div class="btn">
+            <button>LogIn</button>
+            <button>Cadastro</button>
+            <div class="sup"></div>
+        </div>
+
+        <!-- formlogin -->
+        <form action="" id="login">
+            <!-- nome de usuario -->
+            <label for="nome">Usuario:</label><br>
+            <!-- input -->
+            <input type="text" name="nome" id="nome"><br>
+            <!-- senha -->
+            <label for="senha">Senha:</label>
+            <!-- input -->
+            <input type="password" name="senha" id="senha" placeholder="palavra-chave"><br>
+            <!-- alternativas -->
+            <input type="checkbox" name="sessao" id="sessao">
+            <label for="activo">Manter a sessão iniciada!</label>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
